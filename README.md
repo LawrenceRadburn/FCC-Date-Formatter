@@ -11,4 +11,6 @@ The HTML and CSS files were provided by freeCodeCamp. As a result, I only worked
 
 # What I Learned
 
+## Embedded Expressions to format dates
+Using embedded expressions inside template literals, I formatted the .getDate() method to a day/month/year format
 
