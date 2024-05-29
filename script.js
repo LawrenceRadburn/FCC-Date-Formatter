@@ -7,7 +7,7 @@ const year = date.getFullYear();
 const hours = date.getHours();
 const minutes = date.getMinutes();
 const formattedDate = `${day}-${month}-${year}`;
-const allDate = `${month}-${day}-${year}-${hours}-${minutes}`;
+const allDate = `${month}-${day}-${year} ${hours} Hours ${minutes} Minutes`;
 
 currentDateParagraph.textContent = formattedDate;
 
@@ -19,15 +19,11 @@ dateOptionsSelectElement.addEventListener("change", () => {
                 .reverse()
                 .join("-");
        break;
-       case "dd-mm-yyyy":
-            currentDateParagraph.textContent = formattedDate
-                .split("-")
-                .join("-");
-        break;
         case "mm-dd-yyyy-h-mm":
             currentDateParagraph.textContent = allDate
                 .split("-")
                 .join("-");
         break;
+        default: currentDateParagraph.textContent = formattedDate;
     }
 });
