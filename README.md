@@ -14,3 +14,12 @@ The HTML and CSS files were provided by freeCodeCamp. As a result, I only worked
 ## Embedded Expressions to format dates
 Using embedded expressions inside template literals, I formatted the .getDate() method to a day/month/year format
 
+## split() method
+I used to split() method to take a string and return an array of one element.
+Additionally, the split() method can take parameters, known as separators. I used an empty string as a separator to separate each letter of a string.
+
+## reverse() method
+Alongside the split() method, I used the reverse() method to reverse the order of the values inside an array.
+
+## join() method
+Finally, I chained a join() method on an array alongside the split() and reverse() methods. The join() method also takes a parameter known as a separator.
